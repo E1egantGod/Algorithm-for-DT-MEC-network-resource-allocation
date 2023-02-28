@@ -58,18 +58,6 @@ for i in range(i_train):
         print("已经训练",i+1,"步")
 print('结束训练')
 
-# point_num = i_train
-# x = np.zeros(point_num)
-# for i in range(0,point_num):
-#     x[i] = i
-# plt.subplot(1,1,1)
-# plt.plot(x, losss, label="output", color = "orange", linewidth = 1.5)
-# font2 = {'size'   : 15}
-# plt.xlabel("Sample No.",font2)
-# plt.ylabel("Loss",font2)
-# plt.legend()
-# plt.show()
-
 outputs = []
 rights = []
 accs = []
@@ -87,16 +75,3 @@ for j in range(i_test):
         acc_counter = acc_counter + 1
 
 print("acc: ", acc_counter/i_test)
-
-# point_num = i_test
-# x = np.zeros(point_num)
-# for i in range(0,point_num):
-#     x[i] = i
-# plt.subplot(1,1,1)
-# plt.plot(x, rights, label="right", color = "orange", linewidth = 1.5)
-# plt.plot(x, outputs, label="output", color = "blue", linewidth = 1.5)
-# font2 = {'size'   : 15}
-# plt.xlabel("Sample No.",font2)
-# plt.ylabel("Latency",font2)
-# plt.legend()
-# plt.show()

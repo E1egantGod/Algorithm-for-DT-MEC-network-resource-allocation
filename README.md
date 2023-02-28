@@ -1,5 +1,3 @@
-# Algorithm-for-DT-MEC-network-resource-allocation
-
 1. Data generator: These files generate data sets for training and testing according to the given parameter range.
 getDate_conv.py
 getDate_fc.py
